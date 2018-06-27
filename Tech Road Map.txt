@@ -20,3 +20,14 @@ maybe there's some way you can have 10 different tokens represent one image
 
 Output: Hash of output image associated with ethereum address 
 Process: Upload two images and the goal is to perform a 50% random pixel swap using OpenCV and then take that output image and convert to a phash which is then the seed of the ERC-721 token hash. ERC-721 token hash can be 
+
+Possibles Issues w/Artemere
+
+I) Filtering of duplicate images (at best 80%)
+	i)perceptual hashing
+       ii)fuzzy hashing
+II) How do we merge images?
+	i) feature detection of expensive artwork
+       ii) object detection in expensive artwork
+III) How to go from image <=> hash
+	i) IPFS?
