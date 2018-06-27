@@ -1,0 +1,22 @@
+Project Artemere - Tech Road Map
+"To interpret good art, and output great art."
+Project Details - How the Product Works
+Take two images and create a token that is a 1-to-1 mapping with the processed image.
+Users can create new and trade existing tokens to collect cool images.
+	Step 1) Upload images	
+		Input/Output
+		Technologies?
+		Implementation?
+Step 2) Merge images - But cool
+Step 3) Hash image
+	Hamming distance to remove duplicate seeds
+Step 4) Convert hash to image
+Step 5) Create Marketplace
+Input: Local image upload
+Black box: Off-chain image correction or image combination
+How to hash image and recreate image from hash (talk to Corey more look into p-hashing or fuzzy hashing | what exactly are the restrictions on the hash?
+limitations of storing data on ethereum - 
+maybe there's some way you can have 10 different tokens represent one image
+
+Output: Hash of output image associated with ethereum address 
+Process: Upload two images and the goal is to perform a 50% random pixel swap using OpenCV and then take that output image and convert to a phash which is then the seed of the ERC-721 token hash. ERC-721 token hash can be 
